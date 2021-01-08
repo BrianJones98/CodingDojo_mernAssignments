@@ -8,7 +8,7 @@ class PersonCard extends Component{
         }
     }
 
-    birthday = () => { this.setState({age: this.state.age += 1}) }
+    birthday = () => { this.setState({age: this.state.age + 1}) }
     
     render(){
         const { firstName, lastName, hairColor } = this.props;
