@@ -1,0 +1,44 @@
+.form{
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background: whitesmoke;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px black;
+}
+    .form *{
+        margin: 10px;
+    }
+    .form input{
+        height: 25px;
+    }
+    .form button{
+        padding: 5px 20px;
+    }
+
+.list{
+    margin: 0px auto;
+    background: whitesmoke;
+    width: max-content;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+    min-width: 50%;
+}
+    .list table{
+        margin: 0px auto;
+    }
+        .list table td{
+            padding: 10px 100px;
+        }
+
+.checked{
+    text-decoration: line-through;
+    background: gray;
+}
+
+.unchecked{
+    text-decoration: none;
+    background: whitesmoke;
+}
