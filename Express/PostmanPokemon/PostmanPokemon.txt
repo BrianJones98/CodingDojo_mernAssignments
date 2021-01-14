@@ -1,0 +1,236 @@
+--------------------------------------------------
+1.
+--------------------------------------------------
+Request: https://pokeapi.co/api/v2/pokemon/pikachu
+
+Response:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "static",
+                "url": "https://pokeapi.co/api/v2/ability/9/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "lightning-rod",
+                "url": "https://pokeapi.co/api/v2/ability/31/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 112,
+    "forms": [
+        {
+            "name": "pikachu",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/25/"
+        }
+    ],
+	... //rest of response removed for brevity
+--------------------------------------------------
+2.
+--------------------------------------------------
+Request: https://pokeapi.co/api/v2/pokemon/7
+
+Response:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "torrent",
+                "url": "https://pokeapi.co/api/v2/ability/67/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "rain-dish",
+                "url": "https://pokeapi.co/api/v2/ability/44/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 63,
+    "forms": [
+        {
+            "name": "squirtle",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/7/"
+        }
+    ],
+	... //rest of response removed for brevity
+--------------------------------------------------
+3.
+--------------------------------------------------
+Request: https://pokeapi.co/api/v2/pokemon/slaking
+
+Response:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "truant",
+                "url": "https://pokeapi.co/api/v2/ability/54/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        }
+    ],
+    "base_experience": 252,
+    "forms": [
+        {
+            "name": "slaking",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/289/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 366,
+            "version": {
+                "name": "ruby",
+                "url": "https://pokeapi.co/api/v2/version/7/"
+            }
+        },
+        {
+            "game_index": 366,
+            "version": {
+                "name": "sapphire",
+                "url": "https://pokeapi.co/api/v2/version/8/"
+            }
+        },
+		... //rest of response removed for brevity
+--------------------------------------------------
+4.
+--------------------------------------------------
+Request: https://pokeapi.co/api/v2/pokemon/arceus
+
+Response:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "multitype",
+                "url": "https://pokeapi.co/api/v2/ability/121/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        }
+    ],
+    "base_experience": 324,
+    "forms": [
+        {
+            "name": "arceus-normal",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/493/"
+        },
+        {
+            "name": "arceus-bug",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10041/"
+        },
+        {
+            "name": "arceus-dark",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10042/"
+        },
+        {
+            "name": "arceus-dragon",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10043/"
+        },
+        {
+            "name": "arceus-electric",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10044/"
+        },
+        {
+            "name": "arceus-fighting",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10045/"
+        },
+        {
+            "name": "arceus-fire",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10046/"
+        },
+        {
+            "name": "arceus-flying",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10047/"
+        },
+        {
+            "name": "arceus-ghost",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10048/"
+        },
+        {
+            "name": "arceus-grass",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10049/"
+        },
+        {
+            "name": "arceus-ground",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10050/"
+        },
+        {
+            "name": "arceus-ice",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10051/"
+        },
+        {
+            "name": "arceus-poison",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10052/"
+        },
+        {
+            "name": "arceus-psychic",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10053/"
+        },
+        {
+            "name": "arceus-rock",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10054/"
+        },
+        {
+            "name": "arceus-steel",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10055/"
+        },
+        {
+            "name": "arceus-water",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10056/"
+        },
+        {
+            "name": "arceus-unknown",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10057/"
+        },
+        {
+            "name": "arceus-fairy",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/10085/"
+        }
+    ],
+	... //rest of response removed for brevity
+--------------------------------------------------
+5.
+--------------------------------------------------
+Request: https://pokeapi.co/api/v2/pokemon/groudon
+
+Response:
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "drought",
+                "url": "https://pokeapi.co/api/v2/ability/70/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        }
+    ],
+    "base_experience": 302,
+    "forms": [
+        {
+            "name": "groudon",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/383/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 405,
+            "version": {
+                "name": "ruby",
+                "url": "https://pokeapi.co/api/v2/version/7/"
+            }
+        },
+		... //rest of response removed for brevity
