@@ -1,0 +1,75 @@
+.form{
+    display: inline-block;
+    margin: 10px;
+    padding: 50px 20px;
+    width: 500px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+    .form div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(225, 225, 225);
+        margin: 20px auto;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 2px 2px black;
+    }
+    .form button{
+        padding: 5px 20px;
+        box-shadow: 2px 2px black;
+        border: 1px solid black;
+    }
+        .form button:hover{
+            background-color: rgb(200, 200, 200);
+        }
+
+.ProductList{
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    margin: 0px 10px;
+    padding: 20px;
+    overflow-y: scroll;
+    box-shadow: 2px 2px black;
+}
+    .ProductList *{
+        margin: 5px 5px;
+    }
+    .ProductList button{
+        padding: 0;
+        background: none;
+        border: none;
+        color: red;
+        text-decoration: underline;
+    }
+
+.ProductInfo{
+    display: inline-block;
+    background-color: rgb(225, 225, 225);
+    width: 500px;
+    height: 250px;
+    vertical-align: top;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+    margin: 0px 10px;
+    padding: 20px;
+}
+    .ProductInfo *{
+        display: block;
+    }
+    .ProductInfo button{
+        background-color: rgb(255, 150, 150);
+        margin: 10px auto;
+        padding: 5px 20px;
+        box-shadow: 2px 2px black;
+        border: 1px solid black;
+    }
+        .ProductInfo button:hover{
+            background-color: rgb(255, 50, 50);
+        }
