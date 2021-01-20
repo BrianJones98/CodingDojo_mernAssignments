@@ -1,0 +1,28 @@
+.update{
+    display: inline-block;
+    margin: 10px;
+    padding: 50px 20px;
+    width: 500px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+    .update form div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(225, 225, 225);
+        margin: 20px auto;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 2px 2px black;
+    }
+    .update form button{
+        padding: 5px 20px;
+        box-shadow: 2px 2px black;
+        border: 1px solid black;
+    }
+        .update form button:hover{
+            background-color: rgb(200, 200, 200);
+        }
