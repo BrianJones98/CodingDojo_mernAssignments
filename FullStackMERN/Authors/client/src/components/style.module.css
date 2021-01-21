@@ -1,0 +1,40 @@
+.tableCard{
+    display: inline-block;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 50px 25px;
+    width: 50%;
+}
+    .tableCard table{
+        display: inline-block;
+    }
+    .tableCard h3{
+        font-size: 25px;
+    }
+    .tableCard th{
+        font-size: 20px;
+    }
+    .tableCard td{
+        padding: 0px 100px;
+    }
+    .tableCard td:nth-child(1){
+        font-weight: bold;
+    }
+    .tableCard td:nth-child(2) *{
+        margin: 5px;
+    }
+
+.formCard{
+    display: inline-block;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 50px 25px;
+    width: 50%;
+}
+    .formCard h3{
+        font-size: 25px;
+    }
+
+.buttonContainer *{
+    margin: 0px 10px;
+}

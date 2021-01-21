@@ -1,0 +1,14 @@
+.mainContainer{
+    display: inline-block;
+    width: 80%;
+    margin: 10px;
+    padding: 50px;
+}
+
+.navbarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0px auto;
+}
